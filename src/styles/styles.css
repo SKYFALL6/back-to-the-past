@@ -6,13 +6,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 .main-header {
-    background-color: #333;
+    background-color: #0044cc;
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -29,25 +31,76 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #003399;
+    border-radius: 5px;
 }
 
 .main-content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 
-.purpose-section,
-.about-section {
-    width: 45%;
+.banner-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.purpose-section, .about-section, .contact-section {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin-bottom: 5px;
+}
+
+.contact-section input, .contact-section textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #003399;
 }
 
 .main-footer {
-    background-color: #333;
+    background-color: #0044cc;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }

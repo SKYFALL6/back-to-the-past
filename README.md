@@ -84,3 +84,23 @@ Una vez que hayan entregado su pull request, el destino del Proyecto Phoenix est
 El reto de **"Back to the Past - Proyecto Phoenix"** no es solo técnico, es un viaje en el tiempo, una misión para restaurar el código que una vez tuvo potencial. Esta actividad busca que los estudiantes no solo aprendan sobre **Git**, **HTML**, y **CSS**, sino que también experimenten lo que es trabajar en un proyecto real, colaborativo y basado en control de versiones.
 
 Como Restauradores del Tiempo, su objetivo es simple pero crucial: ¡salvar el código, salvar el futuro!
+# cambios
+Añadido Banner de Bienvenida:
+
+Se ha añadido una sección de banner (<section class="banner-section">) con una imagen y un título que da la bienvenida a los visitantes.
+
+Añadida Sección de Contacto:
+
+Se ha añadido una sección de contacto (<section class="contact-section">) con un formulario que permite a los visitantes enviar mensajes.
+Paleta de Colores y Efectos:
+
+Se ha actualizado la paleta de colores a tonos más suaves y modernos.
+
+Se han añadido efectos de transición y sombras para un diseño más atractivo.
+Estilos para el Banner:
+
+Se han añadido estilos para la sección del banner, incluyendo la imagen y el título.
+Estilos para el Formulario de Contacto:
+
+Se han añadido estilos para el formulario de contacto, mejorando su apariencia y usabilidad.
+Ajustes menores en la disposición de las secciones y mejor organización del contenido. listo pa que mas
